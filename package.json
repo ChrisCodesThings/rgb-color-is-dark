@@ -1,6 +1,6 @@
 {
   "name": "@chriscodesthings/rgb-color-is-dark",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Determine if a color in RGB format is dark using YIQ calculation",
   "keywords": [
     "rgb",
