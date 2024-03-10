@@ -1,15 +1,17 @@
 {
-  "name": "@chriscodesthings/stub-repo",
+  "name": "@chriscodesthings/rgb-color-is-dark",
   "version": "0.1.0",
-  "description": "npm package template",
+  "description": "Determine if a color in RGB format is dark using YIQ calculation",
   "keywords": [
-    "stub",
-    "package",
-    "template"
+    "rgb",
+    "color",
+    "dark",
+    "light",
+    "yiq"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisCodesThings/stub-repo.git"
+    "url": "git+https://github.com/ChrisCodesThings/rgb-color-is-dark.git"
   },
   "main": "index.js",
   "type": "module",
@@ -23,14 +25,16 @@
     "node": ">=18.0.0"
   },
   "bugs": {
-    "url": "https://github.com/ChrisCodesThings/stub-repo/issues"
+    "url": "https://github.com/ChrisCodesThings/rgb-color-is-dark/issues"
   },
   "scripts": {
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@chriscodesthings/rgb-color-yiq-value": "1.0.0"
+  },
   "devDependencies": {
     "auto-changelog": "*",
     "jest": "*"

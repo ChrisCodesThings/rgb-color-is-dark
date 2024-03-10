@@ -1,35 +1,35 @@
-# stub-repo &middot; [![Test workflow status](https://github.com/ChrisCodesThings/stub-repo/actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml) [![NPM Version](https://img.shields.io/npm/v/@chriscodesthings/stub-repo)](https://www.npmjs.com/package/@chriscodesthings/stub-repo) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# rgb-color-is-dark &middot; [![Test workflow status](https://github.com/ChrisCodesThings/rgb-color-is-dark/actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml) [![NPM Version](https://img.shields.io/npm/v/@chriscodesthings/rgb-color-is-dark)](https://www.npmjs.com/package/@chriscodesthings/rgb-color-is-dark) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-> **Function to determine if something is a string type**
+> **Determine if a color in RGB format is dark using YIQ calculation**
 
 ## Install
 
 ```sh
-npm install --save @chriscodesthings/stub-repo
+npm install --save @chriscodesthings/rgb-color-is-dark
 ```
 
 ## Use
 
 ```js
-import stubRepo from '@chriscodesthings/stub-repo';
+import colorIsDark from '@chriscodesthings/rgb-color-is-dark';
 
-console.log(stubRepo("hello world!"));
-// => true
+console.log(colorIsDark(100,149,237)); // cornflowerblue
+// => false
 ```
 
 ## Syntax
 
 ```js
-stubRepo(var);
+colorIsDark(r, g, b);
 ```
 
 ### Parameters
 
-- *var*: any
+- *r, g, b*: red green and blue color components
 
 ### Return Value
 
-Returns something probably.
+Returns true if color is dark based on YIQ calculation, false otherwise.
 
 ## Description
 
