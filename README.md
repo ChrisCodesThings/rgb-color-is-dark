@@ -13,14 +13,14 @@ npm install --save @chriscodesthings/rgb-color-is-dark
 ```js
 import colorIsDark from '@chriscodesthings/rgb-color-is-dark';
 
-console.log(colorIsDark(100,149,237)); // cornflowerblue
+console.log(colorIsDark([100, 149, 237])); // cornflowerblue
 // => false
 ```
 
 ## Syntax
 
 ```js
-colorIsDark(r, g, b);
+colorIsDark([r, g, b]);
 ```
 
 ### Parameters
