@@ -33,7 +33,8 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "@chriscodesthings/rgb-color-yiq-value": "^1.0.0"
+    "@chriscodesthings/color-looks-like-rgba": "^1.0.1",
+    "@chriscodesthings/rgb-color-yiq-value": "^2.0.0"
   },
   "devDependencies": {
     "auto-changelog": "^2.4.0",
