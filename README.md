@@ -29,7 +29,7 @@ colorIsDark([r, g, b]);
 
 ### Return Value
 
-Returns true if color is dark based on YIQ calculation, false otherwise.
+Returns boolean `true` if color is dark based on YIQ calculation, `false` otherwise.
 
 ## Description
 
