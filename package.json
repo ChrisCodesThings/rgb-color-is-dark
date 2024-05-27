@@ -17,6 +17,7 @@
     "url": "https://github.com/ChrisCodesThings/rgb-color-is-dark/issues"
   },
   "dependencies": {
+    "@chriscodesthings/basic-color-types": "^1.0.1",
     "@chriscodesthings/rgb-color-yiq-value": "^2.0.0"
   },
   "devDependencies": {

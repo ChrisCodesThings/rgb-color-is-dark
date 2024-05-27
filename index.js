@@ -1,2 +1,3 @@
-export { default } from "./src/rgbColorIsDark.js";
+// @ts-check
 
+export { default } from "./src/rgbColorIsDark.js";

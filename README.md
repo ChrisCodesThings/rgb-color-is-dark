@@ -8,6 +8,7 @@ Determine if a colour is dark using the YIQ calculation.
 
 ### See...
 - [Install/Usage](#install "Install and Usage")
+- [Types](#types "Types")
 - [Syntax](#syntax "Syntax")
 - [Examples](#examples "Examples")
 - [See Also](#see-also "See Also")
@@ -28,6 +29,11 @@ import rgbColorIsDark from '@chriscodesthings/rgb-color-is-dark';
 console.log(rgbColorIsDark([100, 149, 237])); // cornflowerblue
 // => false
 ```
+
+## Types
+
+This package uses types from:
+- [**basic-color-types**: Defines named types for common color formats](https://github.com/ChrisCodesThings/basic-color-types "Defines named types for common color formats")
 
 ## Syntax
 
